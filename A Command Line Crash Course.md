@@ -108,8 +108,9 @@ this is a copy from *Learn Python3 the hard way*
 **Windows**
 <br>如果您使用的是Windows，那么这里是您的命令列表：
 
-|pwd |print working directory|
+|names |definitions |
 |:|:|
+|pwd |print working directory|
 |hostname |my computer's network name|
 |mkdir |make directory|
 |cd |change directory|
