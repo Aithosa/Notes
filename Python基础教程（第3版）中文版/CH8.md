@@ -269,7 +269,6 @@ File '<stdin>', line 2, in ignore_exception
 File '<stdin>', line 2, in faulty
 Exception: Something is wrong
 >>> handle_exception()    # 调用handle_exception时，异常最终传播到handle_exception，并被这里的try/except语句处理。
-try/except语句处理。
 Exception handled
 ```
 
@@ -345,3 +344,10 @@ UserWarning: Something else.
 * **finally**：要确保代码块（如清理代码）无论是否引发异常都将执行，可使用try/finally，并将代码块放在finally子句中。
 * **异常和函数**：在函数中引发异常时，异常将传播到调用函数的地方（对方法来说亦如此）。
 * **警告**：警告类似于异常，但（通常）只打印一条错误消息。你可指定警告类别，它们是Warning的子类。
+
+### 8.7.1 本章介绍的新函数
+
+|函 数|描 述|
+|:|:|
+|warnings.filterwarnings(action,category=Warning, ...) |用于过滤警告|
+|warnings.warn(message, category=None) |用于发出警告|
