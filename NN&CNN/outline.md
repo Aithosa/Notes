@@ -12,7 +12,7 @@
 	- loss
 	- cost
 * 反向传播
-	- 梯度下降(略)
+	- 梯度下降(略,补充文档)
 	- 优化算法
 * 激活函数
 	- Linear
@@ -30,7 +30,7 @@
 	- Adadelta
 	- RMSprop
 	- Adam
-	- 动态图
+	- 动态图(算法比较)
 * 正则化
 	- L1 and L2
 	- Early Stopping
@@ -58,6 +58,6 @@
 ## Part II 实践(完成)
 
 * Keras简单介绍
-* 卷积
+* 卷积介绍
 * 对比-全连接层和卷积层
 * Cat vs. Dog(VGG-16)
