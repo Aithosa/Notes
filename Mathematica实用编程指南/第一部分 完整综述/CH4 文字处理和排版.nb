@@ -1,0 +1,62 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1532,         54]
+NotebookOptionsPosition[      1135,         39]
+NotebookOutlinePosition[      1492,         55]
+CellTagsIndexPosition[      1449,         52]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["\<\
+\:5355\:5143\:6837\:5f0f\:5feb\:6377\:952e:
+ALT + 1 - \:7528\:4e8e\:6807\:9898\:5355\:5143
+ALT + 4 - \:7528\:4e8e\:7ae0\:8282\:5355\:5143
+ALT + 7 - \:7528\:4e8e\:6587\:672c\:5355\:5143\
+\>", "Text",
+ CellChangeTimes->{{3.757217886069143*^9, 3.75721798052492*^9}, 
+   3.7572181004091377`*^9},ExpressionUUID->"ef756c99-a8b4-4f9b-b35c-\
+660e0e9d2b86"],
+
+Cell["\<\
+\:6392\:7248:
+Ctrl + / - \:5206\:6570
+Esc + pi + Esc - \[Pi]\
+\>", "Text",
+ CellChangeTimes->{{3.7572181163392525`*^9, 
+  3.757218156381151*^9}},ExpressionUUID->"9f69dbe9-b9a3-4604-91d1-\
+03cdccfff035"]
+},
+WindowSize->{759, 833},
+WindowMargins->{{565, Automatic}, {10, Automatic}},
+FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (2018\:5e743\:670828\
+\:65e5)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 358, 8, 100, "Text",ExpressionUUID->"ef756c99-a8b4-4f9b-b35c-660e0e9d2b86"],
+Cell[919, 30, 212, 7, 78, "Text",ExpressionUUID->"9f69dbe9-b9a3-4604-91d1-03cdccfff035"]
+}
+]
+*)
+
