@@ -44,7 +44,7 @@ drwxr-xr-x  6 eric eric 4096 3月  12 20:07 mybuild/
 
 ```
 
-### 1.2installing
+### 1.2 installing
 
 The book suggests creating the envirement `GMOCK_HOME` first:
 
