@@ -2,15 +2,15 @@
 
 On Ubuntu
 
-## installing of GoogleMock
+## 1. installing of GoogleMock
 
-1. download
+### 1.1 download
 
-when I access `http://code/google.com/p/googlemock/downloads/list`, I have been redriected to `https://github.com/google/googlemock`, and this page tells that * the googlemock project has been absorbed into the GoogleTest project. * .
+When I access `http://code/google.com/p/googlemock/downloads/list`, I have been redriected to `https://github.com/google/googlemock`, and this page tells that * the googlemock project has been absorbed into the GoogleTest project. * .
 
 Then I open `https://github.com/google/googletest`, found it contains both gooletest and googlemock, so I use `git clone https://github.com/google/googletest.git` to download them all.
 
-here is what I get:
+Here is what I get:
 ```bash
 git clone https://github.com/google/googletest.git
 cd googletest
@@ -44,7 +44,7 @@ drwxr-xr-x  6 eric eric 4096 3月  12 20:07 mybuild/
 
 ```
 
-2. installing
+### 1.2installing
 
 The book suggests creating the envirement `GMOCK_HOME` first:
 
@@ -133,7 +133,7 @@ make
 ```
 Here is what i done to installing the GoogleMock, i am not sure is there any wrong operation.
 
-## run some chapter2's code
+## 2. run some chapter2's code
 
 Here I use `c2/4/SoundexTest.cpp` to make a test.
 
@@ -237,7 +237,7 @@ Then:
 make
 ```
 
-the output is very long:
+The output is very long:
 
 ```bash
 ...
