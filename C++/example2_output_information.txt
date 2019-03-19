@@ -1,0 +1,37 @@
+Scanning dependencies of target test
+[ 33%] Building CXX object CMakeFiles/test.dir/main.cpp.o
+[ 66%] Building CXX object CMakeFiles/test.dir/SoundexTest.cpp.o
+/home/eric/Projects/C++/lotdd-code/code/c2/2/SoundexTest.cpp: In member function ‘virtual void SoundexEncoding_RetainsSoleLetterOfOneLetterWord_Test::TestBody()’:
+/home/eric/Projects/C++/lotdd-code/code/c2/2/SoundexTest.cpp:7:12: warning: unused variable ‘soundex’ [-Wunused-variable]
+    Soundex soundex;
+            ^~~~~~~
+[100%] Linking CXX executable test
+/usr/bin/ld: /home/eric/googletest/build/lib/libgmock.a(gmock-all.cc.o): in function `testing::internal::ThreadLocal<testing::Sequence*>::CreateKey()':
+gmock-all.cc:(.text._ZN7testing8internal11ThreadLocalIPNS_8SequenceEE9CreateKeyEv[_ZN7testing8internal11ThreadLocalIPNS_8SequenceEE9CreateKeyEv]+0x27): undefined reference to `pthread_key_create'
+/usr/bin/ld: /home/eric/googletest/build/lib/libgmock.a(gmock-all.cc.o): in function `testing::internal::ThreadLocal<testing::Sequence*>::GetOrCreateValue() const':
+gmock-all.cc:(.text._ZNK7testing8internal11ThreadLocalIPNS_8SequenceEE16GetOrCreateValueEv[_ZNK7testing8internal11ThreadLocalIPNS_8SequenceEE16GetOrCreateValueEv]+0x25): undefined reference to `pthread_getspecific'
+/usr/bin/ld: gmock-all.cc:(.text._ZNK7testing8internal11ThreadLocalIPNS_8SequenceEE16GetOrCreateValueEv[_ZNK7testing8internal11ThreadLocalIPNS_8SequenceEE16GetOrCreateValueEv]+0x88): undefined reference to `pthread_setspecific'
+/usr/bin/ld: /home/eric/googletest/build/lib/libgmock.a(gmock-all.cc.o): in function `testing::internal::ThreadLocal<testing::Sequence*>::~ThreadLocal()':
+gmock-all.cc:(.text._ZN7testing8internal11ThreadLocalIPNS_8SequenceEED2Ev[_ZN7testing8internal11ThreadLocalIPNS_8SequenceEED5Ev]+0x24): undefined reference to `pthread_getspecific'
+/usr/bin/ld: gmock-all.cc:(.text._ZN7testing8internal11ThreadLocalIPNS_8SequenceEED2Ev[_ZN7testing8internal11ThreadLocalIPNS_8SequenceEED5Ev]+0x39): undefined reference to `pthread_key_delete'
+/usr/bin/ld: /home/eric/googletest/build/lib/libgtest.a(gtest-all.cc.o): in function `testing::internal::ThreadLocal<testing::TestPartResultReporterInterface*>::~ThreadLocal()':
+gtest-all.cc:(.text._ZN7testing8internal11ThreadLocalIPNS_31TestPartResultReporterInterfaceEED2Ev[_ZN7testing8internal11ThreadLocalIPNS_31TestPartResultReporterInterfaceEED5Ev]+0x24): undefined reference to `pthread_getspecific'
+/usr/bin/ld: gtest-all.cc:(.text._ZN7testing8internal11ThreadLocalIPNS_31TestPartResultReporterInterfaceEED2Ev[_ZN7testing8internal11ThreadLocalIPNS_31TestPartResultReporterInterfaceEED5Ev]+0x39): undefined reference to `pthread_key_delete'
+/usr/bin/ld: /home/eric/googletest/build/lib/libgtest.a(gtest-all.cc.o): in function `testing::internal::ThreadLocal<std::vector<testing::internal::TraceInfo, std::allocator<testing::internal::TraceInfo> > >::~ThreadLocal()':
+gtest-all.cc:(.text._ZN7testing8internal11ThreadLocalISt6vectorINS0_9TraceInfoESaIS3_EEED2Ev[_ZN7testing8internal11ThreadLocalISt6vectorINS0_9TraceInfoESaIS3_EEED5Ev]+0x24): undefined reference to `pthread_getspecific'
+/usr/bin/ld: gtest-all.cc:(.text._ZN7testing8internal11ThreadLocalISt6vectorINS0_9TraceInfoESaIS3_EEED2Ev[_ZN7testing8internal11ThreadLocalISt6vectorINS0_9TraceInfoESaIS3_EEED5Ev]+0x39): undefined reference to `pthread_key_delete'
+/usr/bin/ld: /home/eric/googletest/build/lib/libgtest.a(gtest-all.cc.o): in function `testing::internal::ThreadLocal<std::vector<testing::internal::TraceInfo, std::allocator<testing::internal::TraceInfo> > >::GetOrCreateValue() const':
+gtest-all.cc:(.text._ZNK7testing8internal11ThreadLocalISt6vectorINS0_9TraceInfoESaIS3_EEE16GetOrCreateValueEv[_ZNK7testing8internal11ThreadLocalISt6vectorINS0_9TraceInfoESaIS3_EEE16GetOrCreateValueEv]+0x25): undefined reference to `pthread_getspecific'
+/usr/bin/ld: gtest-all.cc:(.text._ZNK7testing8internal11ThreadLocalISt6vectorINS0_9TraceInfoESaIS3_EEE16GetOrCreateValueEv[_ZNK7testing8internal11ThreadLocalISt6vectorINS0_9TraceInfoESaIS3_EEE16GetOrCreateValueEv]+0x88): undefined reference to `pthread_setspecific'
+/usr/bin/ld: /home/eric/googletest/build/lib/libgtest.a(gtest-all.cc.o): in function `testing::internal::ThreadLocal<testing::TestPartResultReporterInterface*>::CreateKey()':
+gtest-all.cc:(.text._ZN7testing8internal11ThreadLocalIPNS_31TestPartResultReporterInterfaceEE9CreateKeyEv[_ZN7testing8internal11ThreadLocalIPNS_31TestPartResultReporterInterfaceEE9CreateKeyEv]+0x27): undefined reference to `pthread_key_create'
+/usr/bin/ld: /home/eric/googletest/build/lib/libgtest.a(gtest-all.cc.o): in function `testing::internal::ThreadLocal<std::vector<testing::internal::TraceInfo, std::allocator<testing::internal::TraceInfo> > >::CreateKey()':
+gtest-all.cc:(.text._ZN7testing8internal11ThreadLocalISt6vectorINS0_9TraceInfoESaIS3_EEE9CreateKeyEv[_ZN7testing8internal11ThreadLocalISt6vectorINS0_9TraceInfoESaIS3_EEE9CreateKeyEv]+0x27): undefined reference to `pthread_key_create'
+/usr/bin/ld: /home/eric/googletest/build/lib/libgtest.a(gtest-all.cc.o): in function `testing::internal::ThreadLocal<testing::TestPartResultReporterInterface*>::GetOrCreateValue() const':
+gtest-all.cc:(.text._ZNK7testing8internal11ThreadLocalIPNS_31TestPartResultReporterInterfaceEE16GetOrCreateValueEv[_ZNK7testing8internal11ThreadLocalIPNS_31TestPartResultReporterInterfaceEE16GetOrCreateValueEv]+0x25): undefined reference to `pthread_getspecific'
+/usr/bin/ld: gtest-all.cc:(.text._ZNK7testing8internal11ThreadLocalIPNS_31TestPartResultReporterInterfaceEE16GetOrCreateValueEv[_ZNK7testing8internal11ThreadLocalIPNS_31TestPartResultReporterInterfaceEE16GetOrCreateValueEv]+0x88): undefined reference to `pthread_setspecific'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/test.dir/build.make:99：test] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:73：CMakeFiles/test.dir/all] 错误 2
+make: *** [Makefile:84：all] 错误 2
+
